@@ -13,6 +13,7 @@
 		63B24BE8259A6B91004E922F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B24BE7259A6B91004E922F /* Preview Assets.xcassets */; };
 		63B24BF3259A6B92004E922F /* lizer_baseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B24BF2259A6B92004E922F /* lizer_baseTests.swift */; };
 		63B24BFE259A6B92004E922F /* lizer_baseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B24BFD259A6B92004E922F /* lizer_baseUITests.swift */; };
+		63B24C12259A6C55004E922F /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B24C11259A6C55004E922F /* SpeechService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		63B24BF9259A6B92004E922F /* lizer-baseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lizer-baseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B24BFD259A6B92004E922F /* lizer_baseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lizer_baseUITests.swift; sourceTree = "<group>"; };
 		63B24BFF259A6B92004E922F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B24C11259A6C55004E922F /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				63B24BE0259A6B91004E922F /* lizer_baseApp.swift */,
 				63B24BE2259A6B91004E922F /* ContentView.swift */,
+				63B24C11259A6C55004E922F /* SpeechService.swift */,
 				63B24BE4259A6B91004E922F /* Assets.xcassets */,
 				63B24BE9259A6B91004E922F /* Info.plist */,
 				63B24BE6259A6B91004E922F /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				63B24BE3259A6B91004E922F /* ContentView.swift in Sources */,
 				63B24BE1259A6B91004E922F /* lizer_baseApp.swift in Sources */,
+				63B24C12259A6C55004E922F /* SpeechService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
